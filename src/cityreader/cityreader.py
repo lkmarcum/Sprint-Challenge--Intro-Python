@@ -87,26 +87,6 @@ data2 = input(
     "Enter another coordinate (lat, log): ").split(",")
 
 
-# lat1 = None
-# lat2 = None
-# lon1 = None
-# lon2 = None
-
-# if float(data1[0]) <= float(data2[0]):
-#     lat1 = float(data1[0])
-#     lat2 = float(data2[0])
-# else:
-#     lat1 = float(data2[0])
-#     lat2 = float(data1[0])
-
-# if float(data1[1]) <= float(data2[1]):
-#     lon1 = float(data1[1])
-#     lon2 = float(data2[1])
-# else:
-#     lon1 = float(data2[1])
-#     lon2 = float(data1[1])
-
-
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
     # within will hold the cities that fall within the specified region
     low_lat = None
